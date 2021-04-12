@@ -1,3 +1,3 @@
 # Shooting-Game
-This is an unfinished game with a shooting character.
-Updates will be posted here.
+This is a simplified clone of the "Space Invaders" game.
+The purpose of this game was to practice collision detection of a HTML element created in JS.

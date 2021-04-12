@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+}
+body{
+    background: black;
+}
+#character{
+    position: relative;
+    top: 275px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    height: 0px;
+    border-bottom: solid 20px black;
+    border-top: solid 20px transparent;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+#game-area {
+    width: 500px;
+    height: 300px;
+    border: solid 5px black;
+    background: white;
+}
+@keyframes move {
+    0% {top: 280px;}
+    100% {top: -10px;}
+}
+@keyframes slide {
+    0% {left: 0px;}
+    100% {left: 60px;}  
+}
+@keyframes slide2 {
+    0% {left: 40px;}
+    100% {left: 100px;}  
+}
+@keyframes slide3 {
+    0% {left: 80px;}
+    100% {left: 140px;}  
+}
+@keyframes slide4 {
+    0% {left: 120px;}
+    100% {left: 180px;}  
+}
+@keyframes slide5 {
+    0% {left: 160px;}
+    100% {left: 220px;}  
+}
+@keyframes slide6 {
+    0% {left: 200px;}
+    100% {left: 260px;}  
+}
+@keyframes slide7 {
+    0% {left: 240px;}
+    100% {left: 300px;}  
+}
+@keyframes slide8 {
+    0% {left: 280px;}
+    100% {left: 340px;}  
+}
+@keyframes slide9 {
+    0% {left: 320px;}
+    100% {left: 380px;}  
+}
+@keyframes slide10 {
+    0% {left: 360px;}
+    100% {left: 420px;}  
+}
+#btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 2em;
+}
+#start{
+    position: absolute;
+    top: 2em;
+    right: 0px;
+    font-size: 2em;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+    border-radius: 50%;
+    background-color:red;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 5px;
+    position: absolute;
+    animation: slide .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+    display: inline-block;
+    margin: 0px 10px;  
+}
+#two{
+    animation: slide2 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#three{
+    animation: slide3 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#four{
+    animation: slide4 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#five{
+    animation: slide5 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#six{
+    animation: slide6 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#seven{
+    animation: slide7 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#eight{
+    animation: slide8 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#nine{
+    animation: slide9 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+#ten{
+    animation: slide10 .75s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
